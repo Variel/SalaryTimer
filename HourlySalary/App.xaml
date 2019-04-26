@@ -1,0 +1,12 @@
+﻿<Application x:Class="HourlySalary.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HourlySalary"
+             xmlns:properties="clr-namespace:HourlySalary.Properties"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <properties:Settings x:Key="Settings" />
+        <FontFamily x:Key="DSEG14">pack://application:,,,/Resources/#DSEG14 Classic</FontFamily>
+        <FontFamily x:Key="NanumSquare">pack://application:,,,/Resources/#NanumSquare</FontFamily>
+    </Application.Resources>
+</Application>
